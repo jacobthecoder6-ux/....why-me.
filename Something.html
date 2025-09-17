@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple HTML Page</title>
+    <meta name="""viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            background: #333;
+            color: #fff;
+            padding: 15px 20px;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+        section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+        }
+        ul {
+            list-style-type: square;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background: #eee;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Simple HTML Page</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About This Page</h2>
+        <p>This is a basic HTML page, now enhanced with more structure and content. It demonstrates common HTML elements and simple CSS styling.</p>
+        <img src="https://via.placeholder.com/400x120?text=Sample+Image" alt="Sample Image" style="width:100%;max-width:400px;">
+    </section>
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Semantic HTML structure</li>
+            <li>Responsive design</li>
+            <li>Styled navigation and sections</li>
+            <li>Table of sample data</li>
+        </ul>
+        <table>
+            <caption>Sample Data Table</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Role</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alice</td>
+                    <td>Developer</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>Bob</td>
+                    <td>Designer</td>
+                    <td>Inactive</td>
+                </tr>
+                <tr>
+                    <td>Charlie</td>
+                    <td>Manager</td>
+                    <td>Active</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Simple HTML Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
